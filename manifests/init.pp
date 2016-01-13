@@ -32,7 +32,7 @@ class pxp_agent
     $service_ensure = undef,
     $service_enable = 'enabled'
 
-) inherits pxp_agent::params
+)
 {
 
 validate_bool($manage)
