@@ -1,0 +1,6 @@
+{
+    "broker-ws-uri" : "wss://<%= @broker %>:8142/pcp/",
+    "ssl-key" : "/etc/puppetlabs/puppet/ssl/private_keys/<%= @fqdn %>.pem",
+    "ssl-ca-cert" : "/etc/puppetlabs/puppet/ssl/certs/ca.pem",
+    "ssl-cert" : "/etc/puppetlabs/puppet/ssl/certs/<%= @fqdn %>.pem"
+}

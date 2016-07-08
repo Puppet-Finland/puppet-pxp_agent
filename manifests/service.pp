@@ -5,12 +5,11 @@
 #
 class pxp_agent::service
 (
-    $ensure,
-    $enable
+    Variant[Boolean, Enum['running', 'stopped']] $ensure,
+    Boolean                                      $enable
 
 ) inherits pxp_agent::params
 {
-
     service { 'pxp_agent':
         ensure => $ensure,
         name   => $::pxp_agent::params::service_name,
