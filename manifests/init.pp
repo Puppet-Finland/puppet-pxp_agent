@@ -45,6 +45,8 @@ class pxp_agent
 
 if $manage {
 
+    include ::puppetlabs
+
     if $manage_config {
         class { '::pxp_agent::config':
             broker => $broker,

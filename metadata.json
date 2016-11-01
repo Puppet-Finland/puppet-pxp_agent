@@ -1,12 +1,13 @@
 {
   "name": "puppetfinland-pxp_agent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Puppet-Finland team",
   "license": "BSD license",
   "summary": "Setup pxp_agent",
   "source": "https://github.com/Puppet-Finland/puppet-pxp_agent.git",
   "project_page": "https://github.com/Puppet-Finland/puppet-pxp_agent",
   "dependencies": [
-    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.0.0" }
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.0.0" },
+    { "name": "puppetfinland/puppetlabs", "version_requirement": ">= 0.1.0" }
   ]
 }
