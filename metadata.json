@@ -2,7 +2,7 @@
   "name": "puppetfinland-pxp_agent",
   "version": "1.1.0",
   "author": "Puppet-Finland team",
-  "license": "BSD license",
+  "license": "BSD-2-Clause",
   "summary": "Setup pxp_agent",
   "source": "https://github.com/Puppet-Finland/puppet-pxp_agent.git",
   "project_page": "https://github.com/Puppet-Finland/puppet-pxp_agent",
